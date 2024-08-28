@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 chardetng = "0.1"
 serde_json = "1.0"
+colored = "2.0"
+ctrlc = "3.2"
