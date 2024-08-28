@@ -9,7 +9,7 @@ Shift_JISやUTF-8が混合されてしまった場合や，単にエンコーデ
 
 ## 機能・特徴
 
-- **エンコーディング検出**: [`chardetng`](https://docs.rs/chardetng/latest/chardetng/)または`UniversalDetector`を使用してテキストファイルのエンコーディングを検出します．
+- **エンコーディング検出**: [`chardetng`](https://docs.rs/chardetng/latest/chardetng/)または独自の`逐次的処理法`を使用してテキストファイルのエンコーディングを検出します．
 - **言語検出**: 可能であればテキストの言語も検出します．
 - **見やすいデザイン**: デザインが少し工夫されており，一目で視認しやすいです．
 - **手軽で使いやすい**: 簡単なステップで実行を完了でき，無効なファイルパスやその他の問題に対してはユーザーフレンドリーなエラーメッセージを提供します．
@@ -21,9 +21,8 @@ Shift_JISやUTF-8が混合されてしまった場合や，単にエンコーデ
 
 1. **リポジトリをクローン:**
 
-```bash
-git clone https://github.com/Atamol/Encoding_detector.rs.git
-```
+   ```bash   git clone https://github.com/Atamol/Encoding_detector.rs.git
+   ```
 
 2. **ファイルパスの入力:**
 
