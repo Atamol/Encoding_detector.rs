@@ -21,7 +21,8 @@ Shift_JISやUTF-8が混合されてしまった場合や，単にエンコーデ
 
 1. **リポジトリをクローン:**
 
-   ```bash   git clone https://github.com/Atamol/Encoding_detector.rs.git
+   ```bash
+   git clone https://github.com/Atamol/Encoding_detector.rs.git
    ```
 
 2. **ファイルパスの入力:**
